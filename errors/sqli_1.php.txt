@@ -1,0 +1,4 @@
+http://localhost/bWAPP/sqli_1.php?title=%27an&action=search - caused because
+the server does not properly escape the sql string, and so putting a ' there
+causes sql to terminate the string, open a new one and never terminate it,
+causing an error

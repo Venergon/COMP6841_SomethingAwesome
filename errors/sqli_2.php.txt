@@ -1,0 +1,3 @@
+http://localhost/bWAPP/sqli_2.php?movie=d&action=go - caused because it
+expects a number rather than a letter and so gives an error when you don't
+give a number

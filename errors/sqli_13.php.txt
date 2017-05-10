@@ -1,0 +1,4 @@
+<http://localhost/bWAPP/sqli_13.php? data={'action': 'go', 'movie': '~'}> same
+as sqli_2
+
+interestingly, setting movie to @ gives "no movies found" rather than error

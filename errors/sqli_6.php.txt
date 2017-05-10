@@ -1,0 +1,2 @@
+http://localhost/bWAPP/sqli_6.php? data={'title': "'an", 'action': 'search'} -
+same as the issue in sqli_1.php

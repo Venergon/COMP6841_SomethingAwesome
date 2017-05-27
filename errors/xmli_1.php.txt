@@ -1,0 +1,4 @@
+<http://localhost/bWAPP/xmli_1.php?login=hel'o&password='orld&form=sub*it
+data={}> - xpath() seems to work similar to sql queries, and so a quotation
+mark in the wrong place can also break them (and you can similarly exploit it
+with ' or ''='

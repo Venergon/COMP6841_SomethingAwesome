@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 import requests, random, string, urllib, sys, copy
 from SeenLines import SeenLines
 from Argument import Argument
@@ -25,7 +27,7 @@ else:
 seen = SeenLines()
 
 # use the cookies
-cookies = {"PHPSESSID":"ao3pmpu53mi5nh2fgrkbdffjd6", "security_level": "0"}
+cookies = {"PHPSESSID":"ao3pmpu53mi5nh2fgrkbdffjd6", "security_level": "0", "token": "cEYNlSJIVs372sPquHdynxXvPVarOP36bbe5MIScWSm2TncPpCostd698ZfhIzkvbosH6F4muyoXVYfy1GL7tmXdVcGFt27Lt5Bb2SIpZxVHKDTtwDUzzI6UqTmA5zio3R2motEFxvAh4ckwbobc6zBE19ZMHIk5HEIJYe0kG4RPKBbNru2hkj4kWcrG3Q9CYn4yC81GVaqIK8tuZ2vjQHhTMlrbpWhdUQHA0AhnuK1vMY0u1xftNKTf3eIfyjlG"}
 
 # First get the url
 total_url = input("What is the url? ")

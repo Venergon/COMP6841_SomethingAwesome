@@ -1,0 +1,3 @@
+<http://localhost/bWAPP/sqli_3.php? data={'password': 'wo:ld', 'form':
+'submit', 'login': "hell'"}>Error: - same problem with not escaping single
+quotes
